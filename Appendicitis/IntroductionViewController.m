@@ -9,13 +9,27 @@
 #import "IntroductionViewController.h"
 
 @interface IntroductionViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *appendixImage;
+@property (weak, nonatomic) IBOutlet UIButton *researchers_button;
 
 @end
 
 @implementation IntroductionViewController
+- (IBAction)showAbstract:(id)sender {
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"Abstract"]];
+    nav.topViewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismissAbstract)];
+    
+    [self presentViewController:nav animated:YES completion:nil];
+}
+
+- (void)dismissAbstract {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.appendixImage setImage:[UIImage imageNamed:@"pic-idea-pas"]];
     // Do any additional setup after loading the view.
 }
 

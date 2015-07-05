@@ -10,12 +10,16 @@
 
 @interface AbstractViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextView *abstractText;
+
 @end
 
 @implementation AbstractViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.abstractText scrollRangeToVisible:NSMakeRange(0, 0)];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     // Do any additional setup after loading the view.
 }
 

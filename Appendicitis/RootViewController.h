@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
-@interface RootViewController : ViewController
+@interface RootViewController : ViewController <UIPageViewControllerDelegate, UIPageViewControllerDataSource>
+
+@property (strong, nonatomic) UIPageViewController *pageViewController;
+
 
 @end
