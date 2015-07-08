@@ -19,6 +19,7 @@
 		58DAF7D21B431D9E0005F59C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DAF7D11B431D9E0005F59C /* RootViewController.m */; };
 		58DAF7D51B4320F40005F59C /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DAF7D41B4320F40005F59C /* IntroductionViewController.m */; };
 		58DAF7D81B43210E0005F59C /* EducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DAF7D71B43210E0005F59C /* EducationViewController.m */; };
+		58DDC9D01B4DE70A00BDE7A9 /* AnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DDC9CF1B4DE70A00BDE7A9 /* AnalysisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		58DAF7D41B4320F40005F59C /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
 		58DAF7D61B43210E0005F59C /* EducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationViewController.h; sourceTree = "<group>"; };
 		58DAF7D71B43210E0005F59C /* EducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationViewController.m; sourceTree = "<group>"; };
+		58DDC9CE1B4DE70A00BDE7A9 /* AnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisViewController.h; sourceTree = "<group>"; };
+		58DDC9CF1B4DE70A00BDE7A9 /* AnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				58DAF7D61B43210E0005F59C /* EducationViewController.h */,
 				58DAF7D71B43210E0005F59C /* EducationViewController.m */,
 				580248631B40E28600B047B1 /* Main.storyboard */,
+				58DDC9CE1B4DE70A00BDE7A9 /* AnalysisViewController.h */,
+				58DDC9CF1B4DE70A00BDE7A9 /* AnalysisViewController.m */,
 				580248661B40E28600B047B1 /* Images.xcassets */,
 				580248681B40E28600B047B1 /* LaunchScreen.xib */,
 				580248591B40E28600B047B1 /* Supporting Files */,
@@ -252,6 +257,7 @@
 				586E5F811B435D790034A156 /* AbstractViewController.m in Sources */,
 				58293F461B45B8D3005074BC /* CustomSwitch.m in Sources */,
 				58DAF7D81B43210E0005F59C /* EducationViewController.m in Sources */,
+				58DDC9D01B4DE70A00BDE7A9 /* AnalysisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

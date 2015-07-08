@@ -1,24 +1,23 @@
 //
-//  IntroductionViewController.m
+//  AnalysisViewController.m
 //  Appendicitis
 //
-//  Created by Michael Spearman on 6/30/15.
+//  Created by Michael Spearman on 7/8/15.
 //  Copyright (c) 2015 Michael Spearman. All rights reserved.
 //
 
-#import "IntroductionViewController.h"
+#import "AnalysisViewController.h"
 
-@interface IntroductionViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *appendixImage;
+@interface AnalysisViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *score_label;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
 
-@implementation IntroductionViewController
-
+@implementation AnalysisViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.appendixImage setImage:[UIImage imageNamed:@"pic-idea-pas"]];
     // Do any additional setup after loading the view.
 }
 

@@ -15,241 +15,159 @@
                         <viewControllerLayoutGuide type="bottom" id="Mug-9a-ulN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1ca-1I-r5f">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YL-QE-6A0">
-                                <rect key="frame" x="236" y="33" width="128" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Facts about Appendicitis" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xz6-xQ-dMK">
+                                <rect key="frame" x="0.0" y="30" width="600" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvg-bq-but">
-                                <rect key="frame" x="0.0" y="80" width="600" height="520"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Quick Facts about Appendicitis by Dr. Ran Goldman, Chief medical Officer at MedSchoolForParents.com : 
-
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Dr. Ran Goldman, Chief Medical Officer at MedSchoolForParents.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94l-nr-onT">
+                                <rect key="frame" x="21" y="69" width="558" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQK-Gz-cz6">
+                                <rect key="frame" x="0.0" y="94" width="600" height="906"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOr-5n-N4y">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="817"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71e-et-mQq">
+                                                <rect key="frame" x="20" y="25" width="560" height="69"/>
+                                                <string key="text">• Appendicitis is a common condition affecting approximately 7-8% of the population, slightly more in males.
 </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="• ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="NSColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Appendicitis is a common condition affecting approximately 7-8% of the population, slightly more in males.
-
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GN-R0-Wwk">
+                                                <rect key="frame" x="20" y="109" width="560" height="46"/>
+                                                <string key="text">• Appendicitis mostly affects children 8 and 18 years of age.
 </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="• ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="NSColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Appendicitis mostly affects children 8 and 18 years of age.
-
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1BP-UK-SJA">
+                                                <rect key="frame" x="20" y="170" width="560" height="69"/>
+                                                <string key="text">• The younger the child, the more likely the child is presented with a perforated appendicitis.
 </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="• ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="NSColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">The younger the child, the more likely the child is presented with a perforated appendicitis.
-
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBE-VA-Yfh">
+                                                <rect key="frame" x="20" y="254" width="560" height="114"/>
+                                                <string key="text">• While no specific pathology is a clear cause, fecal material causing obstruction of the appendix is a likely cause in many children. Infections with bacteria, viruses, fungi and parasites are also known to cause appendicitis.
 </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="• ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="NSColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">While no specific pathology is a clear cause, fecal material causing obstruction of the appendix is a likely cause in many children. Infections with bacteria, viruses, fungi and parasites are also known to cause appendicitis.
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSc-MU-ue5">
+                                                <rect key="frame" x="20" y="383" width="560" height="91"/>
+                                                <string key="text">• Complications are more common among children with perforated appendicitis than if the appendix is inflamed, but not perforated.
 </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwZ-Ny-3XQ">
+                                                <rect key="frame" x="20" y="489" width="560" height="69"/>
+                                                <string key="text">• Treatment of appendicitis with antibiotics, and with no surgery, is common in some countries, especially in Europe.
 </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="• ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="NSColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Complications are more common among children with perforated appendicitis than if the appendix is inflamed, but not perforated.
-
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oM6-hL-Q6j">
+                                                <rect key="frame" x="20" y="573" width="560" height="114"/>
+                                                <string key="text">• Treating children with appendicitis with analgesia, even opioids, rarely mask the symptoms and was shown not to interfere with accurate diagnosis. Proper dosing of analgesia based on weight is important.
 </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="• ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="NSColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Treatment of appendicitis with antibiotics, and with no surgery, is common in some countries, especially in Europe.
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="• ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="NSColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="deviceRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Treating children with appendicitis with analgesia, even opioids, rarely mask the symptoms and was shown not to interfere with accurate diagnosis. Proper dosing of analgesia based on weight is important.
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="19.5" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> 
-Read more at : www.MedSchoolForParents.com </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                            </textView>
-                            <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RMY-os-Zra">
-                                <rect key="frame" x="-24" y="20" width="33" height="60"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BrY-uX-Es4">
+                                                <rect key="frame" x="157" y="702" width="286" height="45"/>
+                                                <string key="text">Read more at:
+www.MedSchoolForParents.com </string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2x-7Z-VxP">
+                                                <rect key="frame" x="271" y="767" width="58" height="30"/>
+                                                <state key="normal" title="Abstract">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="centerX" secondItem="uwZ-Ny-3XQ" secondAttribute="centerX" id="0AT-Gp-pJO"/>
+                                            <constraint firstItem="uwZ-Ny-3XQ" firstAttribute="top" secondItem="cSc-MU-ue5" secondAttribute="bottom" constant="15" id="1EH-GL-Oat"/>
+                                            <constraint firstAttribute="bottom" secondItem="b2x-7Z-VxP" secondAttribute="bottom" constant="20" id="1Gh-xt-qiF"/>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="top" secondItem="bBE-VA-Yfh" secondAttribute="bottom" constant="15" id="5M2-Wj-czN"/>
+                                            <constraint firstItem="71e-et-mQq" firstAttribute="width" secondItem="cSc-MU-ue5" secondAttribute="width" id="F8x-Kt-AjI"/>
+                                            <constraint firstItem="71e-et-mQq" firstAttribute="leading" secondItem="JOr-5n-N4y" secondAttribute="leading" constant="20" id="Gk8-tu-izg"/>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="centerX" secondItem="BrY-uX-Es4" secondAttribute="centerX" id="IgF-k9-ngG"/>
+                                            <constraint firstItem="1BP-UK-SJA" firstAttribute="top" secondItem="3GN-R0-Wwk" secondAttribute="bottom" constant="15" id="Pr2-FV-LWH"/>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="centerX" secondItem="71e-et-mQq" secondAttribute="centerX" id="QTP-Em-Pw5"/>
+                                            <constraint firstItem="71e-et-mQq" firstAttribute="width" secondItem="3GN-R0-Wwk" secondAttribute="width" id="RaK-CH-Qfi"/>
+                                            <constraint firstItem="bBE-VA-Yfh" firstAttribute="top" secondItem="1BP-UK-SJA" secondAttribute="bottom" constant="15" id="Rex-aj-ChX"/>
+                                            <constraint firstAttribute="centerX" secondItem="b2x-7Z-VxP" secondAttribute="centerX" id="Rw1-jq-tht"/>
+                                            <constraint firstItem="BrY-uX-Es4" firstAttribute="top" secondItem="oM6-hL-Q6j" secondAttribute="bottom" constant="15" id="T5L-2U-S5L"/>
+                                            <constraint firstItem="1BP-UK-SJA" firstAttribute="width" secondItem="71e-et-mQq" secondAttribute="width" id="Xsc-IK-1c0"/>
+                                            <constraint firstItem="oM6-hL-Q6j" firstAttribute="top" secondItem="uwZ-Ny-3XQ" secondAttribute="bottom" constant="15" id="Z1m-56-Xdc"/>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="centerX" secondItem="oM6-hL-Q6j" secondAttribute="centerX" id="agd-70-Kr2"/>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="centerX" secondItem="1BP-UK-SJA" secondAttribute="centerX" id="bTG-dF-0VN"/>
+                                            <constraint firstItem="3GN-R0-Wwk" firstAttribute="top" secondItem="71e-et-mQq" secondAttribute="bottom" constant="15" id="cxo-3V-h2n"/>
+                                            <constraint firstItem="oM6-hL-Q6j" firstAttribute="width" secondItem="71e-et-mQq" secondAttribute="width" id="emv-6x-IQY"/>
+                                            <constraint firstItem="71e-et-mQq" firstAttribute="top" secondItem="JOr-5n-N4y" secondAttribute="top" constant="25" id="gGr-e7-q6R"/>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="centerX" secondItem="3GN-R0-Wwk" secondAttribute="centerX" id="iXj-rz-xxC"/>
+                                            <constraint firstAttribute="trailing" secondItem="71e-et-mQq" secondAttribute="trailing" constant="20" id="j2G-Zc-cl5"/>
+                                            <constraint firstItem="uwZ-Ny-3XQ" firstAttribute="width" secondItem="71e-et-mQq" secondAttribute="width" id="kLm-va-Epm"/>
+                                            <constraint firstItem="b2x-7Z-VxP" firstAttribute="top" secondItem="BrY-uX-Es4" secondAttribute="bottom" constant="20" id="rLK-qc-h16"/>
+                                            <constraint firstItem="cSc-MU-ue5" firstAttribute="centerX" secondItem="bBE-VA-Yfh" secondAttribute="centerX" id="tGi-gB-UHx"/>
+                                            <constraint firstItem="bBE-VA-Yfh" firstAttribute="width" secondItem="71e-et-mQq" secondAttribute="width" id="utV-t7-TKa"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="JOr-5n-N4y" firstAttribute="top" secondItem="yQK-Gz-cz6" secondAttribute="top" id="EKk-8j-bHA"/>
+                                    <constraint firstItem="JOr-5n-N4y" firstAttribute="leading" secondItem="yQK-Gz-cz6" secondAttribute="leading" id="cX0-E4-pen"/>
+                                    <constraint firstAttribute="trailing" secondItem="JOr-5n-N4y" secondAttribute="trailing" id="uYN-J7-gIC"/>
+                                    <constraint firstAttribute="bottom" secondItem="JOr-5n-N4y" secondAttribute="bottom" id="uc7-jQ-Aey"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4YL-QE-6A0" firstAttribute="centerY" secondItem="RMY-os-Zra" secondAttribute="centerY" id="BYm-Bu-5P6"/>
-                            <constraint firstItem="RMY-os-Zra" firstAttribute="top" secondItem="wwY-JH-UVF" secondAttribute="bottom" id="L1S-6d-2bZ"/>
-                            <constraint firstAttribute="centerX" secondItem="Xvg-bq-but" secondAttribute="centerX" id="NHJ-IF-vxI"/>
-                            <constraint firstItem="Xvg-bq-but" firstAttribute="top" secondItem="RMY-os-Zra" secondAttribute="bottom" id="ScV-GE-1uk"/>
-                            <constraint firstAttribute="centerX" secondItem="4YL-QE-6A0" secondAttribute="centerX" id="q9A-TB-97i"/>
-                            <constraint firstItem="Mug-9a-ulN" firstAttribute="top" secondItem="Xvg-bq-but" secondAttribute="bottom" id="sNq-vp-Tha"/>
-                            <constraint firstItem="Xvg-bq-but" firstAttribute="top" secondItem="wwY-JH-UVF" secondAttribute="bottom" multiplier="8:2" id="tyb-RT-mHS"/>
-                            <constraint firstAttribute="width" secondItem="Xvg-bq-but" secondAttribute="width" id="uro-J2-6by"/>
+                            <constraint firstAttribute="centerX" secondItem="94l-nr-onT" secondAttribute="centerX" id="4ag-CE-SWO"/>
+                            <constraint firstItem="71e-et-mQq" firstAttribute="width" secondItem="1ca-1I-r5f" secondAttribute="width" constant="-40" id="7tw-yp-7Cv"/>
+                            <constraint firstAttribute="width" secondItem="Xz6-xQ-dMK" secondAttribute="width" id="Z3j-hq-gTP"/>
+                            <constraint firstItem="94l-nr-onT" firstAttribute="bottom" secondItem="yQK-Gz-cz6" secondAttribute="top" constant="-10" id="eru-xO-iL4"/>
+                            <constraint firstItem="94l-nr-onT" firstAttribute="leading" secondItem="1ca-1I-r5f" secondAttribute="leadingMargin" multiplier="4:3" id="iGX-rR-UnP"/>
+                            <constraint firstItem="94l-nr-onT" firstAttribute="top" secondItem="Xz6-xQ-dMK" secondAttribute="bottom" constant="10" id="kpx-1q-Vca"/>
+                            <constraint firstAttribute="centerX" secondItem="Xz6-xQ-dMK" secondAttribute="centerX" id="luc-dd-tsa"/>
+                            <constraint firstItem="Xz6-xQ-dMK" firstAttribute="top" secondItem="wwY-JH-UVF" secondAttribute="bottom" constant="10" id="nI0-5b-xGY"/>
+                            <constraint firstAttribute="width" secondItem="yQK-Gz-cz6" secondAttribute="width" id="pbB-RE-btN"/>
+                            <constraint firstItem="yQK-Gz-cz6" firstAttribute="leading" secondItem="Xz6-xQ-dMK" secondAttribute="leading" id="qCZ-4k-lX8"/>
+                            <constraint firstItem="Mug-9a-ulN" firstAttribute="top" secondItem="yQK-Gz-cz6" secondAttribute="bottom" id="vXX-fd-6jV"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Next Steps" id="gWU-Xy-A7X"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1000"/>
+                    <connections>
+                        <outlet property="abstractButton" destination="b2x-7Z-VxP" id="Rdg-Zm-5SV"/>
+                        <outlet property="scrollView" destination="yQK-Gz-cz6" id="dcP-pM-xNu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqh-yA-rhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -608,7 +526,54 @@ Read more at : www.MedSchoolForParents.com </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="218" y="6"/>
+            <point key="canvasLocation" x="217" y="152"/>
+        </scene>
+        <!--Analysis-->
+        <scene sceneID="Daj-25-0wm">
+            <objects>
+                <viewController title="Analysis" id="nsv-7d-fK2" customClass="AnalysisViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gVe-9F-1bW"/>
+                        <viewControllerLayoutGuide type="bottom" id="XTp-y8-mhH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kr9-yu-jEa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="im9-lm-NPR">
+                                <rect key="frame" x="66" y="20" width="300" height="300"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9m-yW-c49">
+                                <rect key="frame" x="20" y="320" width="560" height="280"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="y9m-yW-c49" secondAttribute="centerX" id="3aq-ib-Ysj"/>
+                            <constraint firstItem="XTp-y8-mhH" firstAttribute="top" secondItem="y9m-yW-c49" secondAttribute="bottom" id="NEQ-vW-PgM"/>
+                            <constraint firstItem="im9-lm-NPR" firstAttribute="top" secondItem="gVe-9F-1bW" secondAttribute="bottom" id="WPf-Ai-B1K"/>
+                            <constraint firstAttribute="width" secondItem="im9-lm-NPR" secondAttribute="width" multiplier="2:1" id="bGx-Wp-kFW"/>
+                            <constraint firstAttribute="width" secondItem="y9m-yW-c49" secondAttribute="width" constant="40" id="i4u-6t-s2a"/>
+                            <constraint firstItem="y9m-yW-c49" firstAttribute="top" secondItem="im9-lm-NPR" secondAttribute="bottom" id="nlv-kP-H5p"/>
+                            <constraint firstItem="im9-lm-NPR" firstAttribute="leading" secondItem="Kr9-yu-jEa" secondAttribute="leadingMargin" constant="50" id="rIO-eM-aSQ"/>
+                            <constraint firstAttribute="height" secondItem="im9-lm-NPR" secondAttribute="height" multiplier="2:1" id="tRQ-1P-9mZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="score_label" destination="im9-lm-NPR" id="H5x-KY-sfL"/>
+                        <outlet property="textView" destination="y9m-yW-c49" id="ve1-E3-Xyu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrE-wG-jLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965" y="152"/>
         </scene>
         <!--Introduction-->
         <scene sceneID="5hB-la-End">
@@ -622,8 +587,8 @@ Read more at : www.MedSchoolForParents.com </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GA1-to-ipT">
-                                <rect key="frame" x="36" y="20" width="528" height="90"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GA1-to-ipT">
+                                <rect key="frame" x="36" y="50" width="528" height="31"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Pediatric Appendicitis Score">
                                         <attributes>
@@ -635,40 +600,24 @@ Read more at : www.MedSchoolForParents.com </string>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bF8-gu-VX8">
-                                <rect key="frame" x="157" y="491" width="286" height="109"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal">
-                                    <string key="title">Developed by Samuel
-Validated by Goldman</string>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="showAbstract:" destination="Dfx-Lf-OMc" eventType="touchUpInside" id="Sev-8H-78P"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic-idea-pas" translatesAutoresizingMaskIntoConstraints="NO" id="4eo-ao-a1w">
-                                <rect key="frame" x="173" y="110" width="254" height="381"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="pic-idea-pas" translatesAutoresizingMaskIntoConstraints="NO" id="4eo-ao-a1w">
+                                <rect key="frame" x="173" y="121" width="254" height="439"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GA1-to-ipT" firstAttribute="bottom" secondItem="4eo-ao-a1w" secondAttribute="top" id="0ov-Pd-TM6"/>
-                            <constraint firstAttribute="centerY" secondItem="4eo-ao-a1w" secondAttribute="centerY" id="EU8-ZW-fSj"/>
+                            <constraint firstItem="4eo-ao-a1w" firstAttribute="top" secondItem="GA1-to-ipT" secondAttribute="bottom" constant="40" id="7we-aG-pqY"/>
+                            <constraint firstItem="NNs-Ax-29e" firstAttribute="top" secondItem="4eo-ao-a1w" secondAttribute="bottom" constant="40" id="L2v-xm-ec6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GA1-to-ipT" secondAttribute="trailing" constant="20" id="P0V-qq-an8"/>
-                            <constraint firstItem="NNs-Ax-29e" firstAttribute="top" secondItem="bF8-gu-VX8" secondAttribute="bottom" id="RAy-1k-h2L"/>
                             <constraint firstAttribute="centerX" secondItem="4eo-ao-a1w" secondAttribute="centerX" id="RQZ-e3-n6X"/>
-                            <constraint firstItem="GA1-to-ipT" firstAttribute="top" secondItem="ZSk-Ku-GIR" secondAttribute="bottom" id="TIm-wq-121"/>
                             <constraint firstItem="4eo-ao-a1w" firstAttribute="width" relation="greaterThanOrEqual" secondItem="Uqq-2i-w0e" secondAttribute="width" multiplier="1:3" priority="999" id="Z5y-b3-8fn"/>
-                            <constraint firstAttribute="centerX" secondItem="bF8-gu-VX8" secondAttribute="centerX" id="ZJR-be-4Ar"/>
+                            <constraint firstItem="GA1-to-ipT" firstAttribute="top" secondItem="ZSk-Ku-GIR" secondAttribute="bottom" constant="30" id="aJD-Ku-eN2"/>
                             <constraint firstAttribute="centerX" secondItem="GA1-to-ipT" secondAttribute="centerX" id="u3i-T0-61N"/>
-                            <constraint firstItem="4eo-ao-a1w" firstAttribute="bottom" secondItem="bF8-gu-VX8" secondAttribute="top" id="yJs-3z-pMF"/>
                             <constraint firstItem="GA1-to-ipT" firstAttribute="leading" secondItem="Uqq-2i-w0e" secondAttribute="leadingMargin" constant="20" id="zwY-BS-iI3"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="appendixImage" destination="4eo-ao-a1w" id="MQY-iY-w2D"/>
-                        <outlet property="researchers_button" destination="bF8-gu-VX8" id="3yT-5b-LOe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uW7-sf-jKc" userLabel="First Responder" sceneMemberID="firstResponder"/>

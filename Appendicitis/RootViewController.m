@@ -29,7 +29,6 @@
     self.pageViewController.delegate = self;
     self.pageViewController.dataSource = self;
 
-    
     _scoreBoardVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ScoreBoard"];
     _introductionVC = [self.storyboard instantiateViewControllerWithIdentifier:@"Introduction"];
     _educationVC = [self.storyboard instantiateViewControllerWithIdentifier:@"Education"];
